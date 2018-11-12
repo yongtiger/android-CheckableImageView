@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout-->
+<cc.brainbook.view.checkableframelayout.CheckableFrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp">
+    <!--android:addStatesFromChildren="true"-->
+
+    <cc.brainbook.view.checkableimageview.CheckableImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/toggle"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginRight="10dp" />
+        <!--android:clickable="false"-->
+        <!--android:focusable="false" />-->
+    <!--android:src="@drawable/toggle"-->
+    <!--android:button="@android:drawable/checkbox_selector"-->
+    <!--android:duplicateParentState="true"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="17dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</cc.brainbook.view.checkableframelayout.CheckableFrameLayout>
