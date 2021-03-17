@@ -64,4 +64,5 @@ public class CheckableImageView extends AppCompatImageView implements Checkable{
 //        super.drawableStateChanged();
 //        invalidate();
 //    }
+
 }
