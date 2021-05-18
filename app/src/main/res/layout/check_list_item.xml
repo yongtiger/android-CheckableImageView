@@ -10,13 +10,15 @@
     <cc.brainbook.view.checkableimageview.CheckableImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right|center_vertical"
+        android:layout_gravity="end|center_vertical"
         android:src="@drawable/toggle"
         android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:clickable="false"
         android:focusable="false"
-        android:layout_marginRight="10dp" />
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
         <!--android:clickable="false"-->
         <!--android:focusable="false" />-->
     <!--android:src="@drawable/toggle"-->
